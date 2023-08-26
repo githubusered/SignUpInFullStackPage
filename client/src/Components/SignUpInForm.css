@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.white-form{
+    margin-top: 95px
+}
+.white-form .white-form-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+    margin: 30px 0;
+    align-items: center;
+}
+
+.white-form .white-form-inputs .white-form-input{
+    border-radius: 20px;
+    padding: 25px 300px 20px 20px;
+    background-color: #EAEEED;
+
+    border: none;
+}
+.white-form-input::placeholder{
+    font-family: 'Raleway',sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
+    opacity: 30%;
+}
+
+
+
+.white-form .white-forgot-password{
+    font-family: 'Raleway',sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 20px 0;
+    opacity: 80%;
+    cursor: pointer;
+}
+.white-form .white-forgot-password:hover{
+    text-decoration: underline;
+}
+
+.white-form .white-submit-button{
+    width: 300px;
+    height: 76px;
+    border-radius: 50px;
+    background-color: #38AA95;
+    color: #EAEEED;
+
+    font-family: 'Raleway',sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    cursor: pointer;
+    
+}

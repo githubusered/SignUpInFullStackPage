@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.green{
+    background: radial-gradient(113.94% 113.94% at 50.06% -13.94%, #38A3A2 17.04%, #10605D 100%);
+    position: relative;
+    border-radius:  0 20px 20px 0 ;
+    min-height: 650px;
+    display: inline-block;
+    width: 39%;
+    vertical-align: top;
+    
+}
+.green-content{
+    margin-top: 200px;
+}
+.green-2{
+    background: radial-gradient(113.94% 113.94% at 50.06% -13.94%, #38A3A2 17.04%, #10605D 100%);
+    position: relative;
+    border-radius:   20px 0 0 20px  ;
+    min-height: 650px;
+    display: inline-block;
+    width: 39%;
+    vertical-align: top;
+}
+
+.green-2-content{
+    margin-top: 200px;
+}
+.green p:nth-of-type(1){
+    font-family: 'Raleway',sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 20px 0;
+}
+.green p:nth-of-type(2){
+    font-family: 'Raleway',sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 20px 0;
+
+}
+.green-2 p:nth-of-type(1){
+    font-family: 'Raleway',sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 20px 0;
+}
+.green-2 p:nth-of-type(2){
+    font-family: 'Raleway',sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 20px 0;
+
+}
+
+
+.animationRound{
+    position: absolute;
+    bottom: 200px;
+    left: 120px;
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+    background-color: #49ACA8;
+    opacity: 0.2;
+}
+
+.animationTriangle{
+    position: absolute;
+    bottom: 5px;
+    right: 120px;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #49ACA8;
+    transform: rotate(150deg);
+    opacity: 0.2;
+}
+
+.green-button{
+    border-radius: 50px;
+    /* background-color: #38AA95; */
+    color: #EAEEED;
+    border: 2px solid white;
+    font-family: 'Raleway',sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    cursor: pointer;
+    margin: 20px 0;
+    padding: 5px 50px;
+}
