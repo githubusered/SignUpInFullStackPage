@@ -27,19 +27,23 @@ To get started with the **SignUpInFullStackPage** project, follow these steps:
    Move into the project directory:
     ```bash
      cd SignUpInFullStackPage
-4. **Install Dependencies and Start the Front-End:**
+3. **Install Dependencies and Start the Front-End:**
    Navigate to the client directory and install the required dependencies:
     ```bash
      cd ./client
      npm i node_module
      npm start     
-6. **Update the Existing .env File:**
+4. **Update the Existing .env File:**
    Navigate to the server directory .env file :
-  Open the .env file in your preferred text editor. In the .env file,
-  find the line that starts with MONGODB_URL and update it with your MongoDB cluster connection URL:     
-    MONGODB_URL=mongodb+srv://your-email:your-password@your-cluster.lgxy4ae.mongodb.net/?retryWrites=true&w=majority
-  Replace your-email, your-password, and your-cluster with your actual MongoDB credentials.
-7. **Install Dependencies and Start the Backend-End:**
+   
+     Open the .env file in your preferred text editor. In the .env file,
+     find the line that starts with MONGODB_URL and update it with your MongoDB cluster connection URL:
+        
+       MONGODB_URL=mongodb+srv://your-email:your-password@your-cluster.lgxy4ae.mongodb.net/?retryWrites=true&w=majority
+
+      Replace your-email, your-password, and your-cluster with your actual MongoDB credentials.
+
+5. **Install Dependencies and Start the Backend-End:**
    Navigate to the server directory and install the required dependencies:
     ```bash
      cd ./server
